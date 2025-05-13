@@ -2,7 +2,7 @@
 2020-2022 GSHS research repository
 
 <p align="center">
-    <img src="/docs/Main.png">
+    <img src="C.D-Study/docs/Main.png">
     <br>
     <sup>Introduction</sup>
     <br>
