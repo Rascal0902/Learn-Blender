@@ -1,0 +1,70 @@
+\documentclass[12pt]{beamer}
+
+\usetheme{Boadilla}
+%https://www.overleaf.com/learn/latex/Beamer#Reference_guide
+\usecolortheme{beaver}
+
+%\setbeamertemplate{navigation symbols}{}
+%\setbeamertemplate{headline}{}
+\setbeamercovered{transparent}
+
+\usepackage{kotex}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathtools,amssymb}
+
+\title{Beamer}
+\author{박건호}
+\date{September 2024}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Title page}   
+\tableofcontents
+\end{frame}
+
+\section{1}
+\begin{frame}{frametitle}
+
+\begin{itemize}
+    \item<1-> Collaboration
+    \item<2-> version history
+    \item<3-> Tracking change
+\end{itemize}
+
+\onslide<2>{click clock} %\only
+
+\alert<1>{i can}  \textbf<2>{asdas}
+
+\end{frame}
+
+\begin{frame}{special environments}
+    \begin{block}{Remark}  
+    some text
+    \end{block}
+
+    \begin{example}
+    This is an example
+    \end{example}
+
+    \begin{theorem}[Pythagoras]
+    $a$
+    \end{theorem}
+
+    \begin{proof}
+    
+    \end{proof}
+    
+\end{frame}
+
+\begin{frame}{Two column frame}
+
+    \begin{columns}
+    \column{0.5\textwidth} asdfasdfasdfasdfasdf
+    \column{0.5\textwidth}asdfasdfasdfasdfasdfasdf
+    \end{columns}
+\end{frame}
+
+\end{document}

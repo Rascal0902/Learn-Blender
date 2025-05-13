@@ -1,0 +1,33 @@
+[CAT&DOG 리소스 스터디 4주차 : file 구조, uv editing, sculpting]
+
+1) obj file 구조 : 
+    v : vertex
+    vn : normal
+    vt : texture coordinate
+    f : faces [ indices : id 로 저장하여 저장의 용이함을 늘림]
+
+    mtl file 구조
+    phong shading light parmeter...
+    (ambient, diffuse, specular) ... 
+    재질... illum....
+
+2) uv editing
+    edit mode -> click all vertices 
+    -> smart UV project 하면 꼬여있는 vt 풀어줌
+  
+    if 전개도 모양을 자기가 만들고 싶다? -> edge mode -> 
+    Mark seam ->  all point click ->Unwrap
+  
+    임의로 UV editing 왼쪽에서 건드려도 됨 
+    (안뜬다면 edit mode 로 설정한 후 왼쪽 위의 화살표 2개 클릭)
+
+3) sculpting
+    vertices 에 대해 조각하는 것이기 때문에 
+    subdivision surface 를 여러번하여 vertices 많이 쪼개야 됨
+  
+    -> brush 를 이용하여 맘대로 조각 가능
+   (다만 이건 painting 과 같이 완전 미적 감각이 필요...)
+   진짜 완벽하다고 느낄때만 ctrl s 를 하자
+   (Hoxy, ctrl-z 못하게 되면 좀 많이 힘듦...)
+
+   (난 진짜 맘에 안드는 부분이 있을때 다듬으려고 쓰는 편...)

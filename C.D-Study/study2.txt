@@ -1,0 +1,33 @@
+2주차 : object mode edit mode
+
+view: shift + wheel click,  wheel click, click coordinate...
+Mode change: TAB
+
+object mode: camera -> lock ...
+		   hierachy -> collection, ctrl-j
+                   add object : shift a
+                   translate, scale, rotate -> g(xyz), s, r
+
+Edit mode: point, Edge, Face select
+                view: transparent, rendered, ...
+                +) global, local...
+                
+                proportional editing
+                translate, scale, rotate -> g(xyz), s, r
+                +) extrude, inset, Bevel -> e, i, ctrl-shift-B
+
+                smoothing
+                subdivision surface -> Edge/...
+                +) decimate
+ 
+                object divide : select -> p
+                 change center
+
+                +) tools in left
+                 loop -> pointmode -> alt edge click 
+                 cut... sheer...
+
+                 ctrl+ - -> select more in loop
+
+                 make edges
+                 Bridge faces
